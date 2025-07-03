@@ -70,6 +70,7 @@ Windows Registry Editor Version 5.00
 "NewTabPageAppLauncherEnabled"=dword:00000000
 "NewTabPageBingChatEnabled"=dword:00000000
 "NewTabPageContentEnabled"=dword:00000000
+"NewTabPagePrerenderEnabled"=dword:00000000
 "NewTabPageQuickLinksEnabled"=dword:00000000
 "NewTabPageSearchBox"="redirect"
 "NonRemovableProfileEnabled"=dword:00000000
@@ -109,6 +110,7 @@ Windows Registry Editor Version 5.00
 "SharedLinksEnabled"=dword:00000000
 "ShoppingListEnabled"=dword:00000000
 "ShowAcrobatSubscriptionButton"=dword:00000000
+"ShowHistoryThumbnails"=dword:00000000
 "ShowHomeButton"=dword:00000000
 "ShowMicrosoftRewards"=dword:00000000
 "ShowOfficeShortcutInFavoritesBar"=dword:00000000
