@@ -20,7 +20,6 @@ Windows Registry Editor Version 5.00
 "AutofillCreditCardEnabled"=dword:00000000
 "AutofillMembershipsEnabled"=dword:00000000
 "AutoImportAtFirstRun"=dword:00000004
-"AutomaticHttpsDefault"=dword:00000002
 "BackgroundModeEnabled"=dword:00000000
 "BingAdsSuppression"=dword:00000001
 "BrowserAddProfileEnabled"=dword:00000000
