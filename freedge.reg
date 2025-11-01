@@ -56,7 +56,6 @@ Windows Registry Editor Version 5.00
 "EfficiencyModeOnPowerEnabled"=dword:00000000
 "ExperimentationAndConfigurationServiceControl"=dword:00000000
 "ExtensionsPerformanceDetectorEnabled"=dword:00000000
-"GamerModeEnabled"=dword:00000000
 "GenAILocalFoundationalModelSettings"=dword:00000001
 "GuidedSwitchEnabled"=dword:00000000
 "HideFirstRunExperience"=dword:00000001
@@ -132,7 +131,6 @@ Windows Registry Editor Version 5.00
 "TabServicesEnabled"=dword:00000000
 "TextPredictionEnabled"=dword:00000000
 "TLS13EarlyDataEnabled"=dword:00000000
-"TrackingPrevention"=dword:00000003
 "TyposquattingCheckerEnabled"=dword:00000000
 "UploadFromPhoneEnabled"=dword:00000000
 "UrlDiagnosticDataEnabled"=dword:00000000
