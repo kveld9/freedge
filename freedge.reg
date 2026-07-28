@@ -20,6 +20,7 @@ Windows Registry Editor Version 5.00
 "AutoImportAtFirstRun"=dword:00000004
 "BackgroundModeEnabled"=dword:00000000
 "BingAdsSuppression"=dword:00000001
+"BlockThirdPartyCookies"=dword:00000001
 "BrowserAddProfileEnabled"=dword:00000000
 "BrowserGuestModeEnabled"=dword:00000000
 "BuiltInAIAPIsEnabled"=dword:00000000
@@ -30,6 +31,8 @@ Windows Registry Editor Version 5.00
 "ConfigureOnPremisesAccountAutoSignIn"=dword:00000000
 "ConfigureShare"=dword:00000000
 "DefaultBrowserSettingsCampaignEnabled"=dword:00000000
+"DefaultGeolocationSetting"=dword:00000002
+"DefaultNotificationsSetting"=dword:00000002
 "DefaultSensorsSetting"=dword:00000002
 "DefaultWebUsbGuardSetting"=dword:00000002
 "DiagnosticData"=dword:00000000
@@ -56,9 +59,11 @@ Windows Registry Editor Version 5.00
 "GenAILocalFoundationalModelSettings"=dword:00000001
 "GuidedSwitchEnabled"=dword:00000000
 "HideFirstRunExperience"=dword:00000001
+"HttpsOnlyMode"="force_enabled"
 "ImplicitSignInEnabled"=dword:00000000
 "ImportOnEachLaunch"=dword:00000000
 "InAppSupportEnabled"=dword:00000000
+"InternetExplorerIntegrationLevel"=dword:00000000
 "LaunchEdgeOnWindowsStartupEnabled"=dword:00000000
 "LiveCaptionsAllowed"=dword:00000000
 "LocalBrowserDataShareEnabled"=dword:00000000
@@ -93,6 +98,8 @@ Windows Registry Editor Version 5.00
 "QRCodeGeneratorEnabled"=dword:00000000
 "QuickSearchShowMiniMenu"=dword:00000000
 "ReadAloudEnabled"=dword:00000000
+"RedirectSitesFromInternetExplorerPreventBHOInstall"=dword:00000001
+"RedirectSitesFromInternetExplorerRedirectMode"=dword:00000000
 "RemoteDebuggingAllowed"=dword:00000000
 "ResolveNavigationErrorsUseWebService"=dword:00000000
 "RoamingProfileSupportEnabled"=dword:00000000
@@ -124,5 +131,6 @@ Windows Registry Editor Version 5.00
 "UploadFromPhoneEnabled"=dword:00000000
 "UrlDiagnosticDataEnabled"=dword:00000000
 "UserFeedbackAllowed"=dword:00000000
+"VisualSearchEnabled"=dword:00000000
 "WebCaptureEnabled"=dword:00000000
 "WebToBrowserSignInEnabled"=dword:00000000
