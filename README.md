@@ -9,6 +9,10 @@ Keep the Microsoft Edge browser with the minimum, most productive functionalitie
 
 Regarding the two points above: while the overall goal is to strip bloatware, this config was tailored to my own use case. The base setup should still be useful for others — feel free to fork and adjust to your needs.
 
+## Known limitations
+
+- **"Use secure DNS" toggle appears grayed out.** This is expected behavior in Microsoft Edge: as soon as *any* policy is applied via the registry, Edge treats the browser as "managed" and disables that toggle, regardless of whether `DnsOverHttpsMode` is configured. This isn't something freedge enforces directly — it's a side effect of applying any Group Policy at all, and can't be worked around while using this file.
+
 ## How to install?
 
 > Requires running as Administrator (this writes to `HKEY_LOCAL_MACHINE`).
