@@ -1,27 +1,51 @@
-# Freedge: minimal and enhanced Microsoft Edge Browser.
+# Freedge: minimal and enhanced Microsoft Edge Browser
 
-Keep the Microsoft Edge browser with the minimum and productive functionalities, reducing resource consumption, eliminating ads and improving privacy by applying policies.
+Keep the Microsoft Edge browser with the minimum, most productive functionalities — reducing resource consumption, eliminating ads, and improving privacy through applied Group Policies.
 
 ## Important points
+
 - AI Copilot is enabled.
 - Sync account is enabled.
-- Split tab view is enabled.
 
-Referring to these previous two points, while the idea is to remove bloatware, this was created for personal reasons but is still useful for the rest.
+Regarding the three points above: while the overall goal is to strip bloatware, this config was tailored to my own use case. The base setup should still be useful for others — feel free to fork and adjust to your needs.
 
 ## How to install?
+
+> Requires running as Administrator (this writes to `HKEY_LOCAL_MACHINE`).
+
 1. Download [freedge.reg](freedge.reg).
 2. Double click on the file.
-3. Hit “next” to all that it asks and it will be applied.
+3. Hit "Yes" / "Next" on all the prompts it shows, and it will be applied.
+4. Restart Edge for the policies to take effect.
 
-## For linux?
-No. I don't recommend Edge for Linux; it has far fewer features, and many directives aren't available for configuration there. So, there's no file to configure its directives on Linux.
+## How to uninstall / revert?
 
-## New policies
-- https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnote-stable-channel
+Open Command Prompt **as Administrator** and run:
 
-The idea is to try to keep it up to date, removing obsolete directives and adding the corresponding new ones.
+```dos
+reg delete "HKLM\SOFTWARE\Policies\Microsoft\Edge" /f
+reg delete "HKCU\SOFTWARE\Policies\Microsoft\Edge" /f
+```
 
-## All available policies
+Restart Edge afterward for the change to take effect.
 
-- https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies
+Alternatively, keep a backup `.reg` export of your registry state before applying, so you can restore it in one click if needed.
+
+## Linux support
+
+Not supported. I don't recommend Edge for Linux — it ships with far fewer features, and many of these policies aren't available for configuration on that platform. There's no `.reg` (or equivalent) file for Linux in this repo.
+
+## Keeping this updated
+
+The goal is to keep this file current — removing deprecated/obsolete directives and adding new ones as Edge releases them.
+
+- [New policies (release notes)](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnote-stable-channel)
+- [Full policy reference](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies)
+
+## Contributing
+
+Found a broken or outdated policy, or want one added/removed? Open an issue or a pull request.
+
+## License
+
+See [LICENSE](LICENSE).
