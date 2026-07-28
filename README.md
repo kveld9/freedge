@@ -7,7 +7,7 @@ Keep the Microsoft Edge browser with the minimum, most productive functionalitie
 - AI Copilot is enabled.
 - Sync account is enabled.
 
-Regarding the three points above: while the overall goal is to strip bloatware, this config was tailored to my own use case. The base setup should still be useful for others — feel free to fork and adjust to your needs.
+Regarding the two points above: while the overall goal is to strip bloatware, this config was tailored to my own use case. The base setup should still be useful for others — feel free to fork and adjust to your needs.
 
 ## How to install?
 
