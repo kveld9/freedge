@@ -11,7 +11,7 @@ Regarding the two points above: while the overall goal is to strip bloatware, th
 
 ## Known limitations
 
-- **"Use secure DNS" toggle appears grayed out.** This is expected behavior in Microsoft Edge: as soon as *any* policy is applied via the registry, Edge treats the browser as "managed" and disables that toggle, regardless of whether `DnsOverHttpsMode` is configured. This isn't something freedge enforces directly — it's a side effect of applying any Group Policy at all, and can't be worked around while using this file.
+- **"Use secure DNS" toggle appears grayed out.** This is expected behavior in Microsoft Edge: as soon as _any_ policy is applied via the registry, Edge treats the browser as "managed" and disables that toggle, regardless of whether `DnsOverHttpsMode` is configured. This isn't something freedge enforces directly — it's a side effect of applying any Group Policy at all, and can't be worked around while using this file.
 
 ## How to install?
 
@@ -22,7 +22,7 @@ Regarding the two points above: while the overall goal is to strip bloatware, th
 3. Hit "Yes" / "Next" on all the prompts it shows, and it will be applied.
 4. Restart Edge for the policies to take effect.
 
-## How to uninstall / revert?
+## How to uninstall or revert?
 
 Open Command Prompt **as Administrator** and run:
 
